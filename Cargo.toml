@@ -1,7 +1,7 @@
 [package]
 name = "zero2prod"
 version = "0.1.0"
-author = ["Jiho Oh <jiho0307@gmail.com>"]
+authors = ["Jiho Oh <jiho0307@gmail.com>"]
 edition = "2021"
 
 [lib]
@@ -47,6 +47,7 @@ default-features = false
 features = ["json", "rustls-tls"]
 
 [dev-dependencies]
+linkify = "0.8"
 claim = "0.5"
 once_cell = "1"
 fake = "~2.3"
